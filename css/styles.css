@@ -849,6 +849,7 @@ img {
 
 
 .form-field-label{
+    font-size: 12px;
     margin-bottom: 4px;
     color: var(--primary-text-color);
    
@@ -864,6 +865,7 @@ img {
     cursor: pointer;
 }
 
+
 .form-field-textarea{
     height: 120px;
     width: 100%;
@@ -872,9 +874,12 @@ img {
     border-radius: 4px;
     outline: none;
     color: var(--primary-text-color);
+    font-size: 12px;
     margin-bottom: 20px;
-    
+    resize: none;
+       
 }
+
 
 .form-field-input:focus,
 .form-field-input:hover{
@@ -893,9 +898,9 @@ img {
 
 .form-field-textarea::placeholder{
     font-size: 12px;
-    line-height: 1.17;
-    
+    line-height: 1.17; 
 }
+
 
 .form-field{
     position: relative;
@@ -913,10 +918,15 @@ img {
     margin-bottom: 30px;
 
 }
+.form-field-checkbox a{
+    color: var(--accent-color);
+    text-decoration-color: var(--accent-color);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
 
 .checkbox{
-    display: flex;
-    
+    display: flex;  
 }
 
 .checkbox-icon{
@@ -939,8 +949,10 @@ img {
 
 .checkbox-label{
     position: relative;
+    font-size: 14px;
     padding-left: 24px;
     color: var(--primary-text-color);
+    cursor: pointer;
 }
 
 
@@ -961,6 +973,7 @@ img {
     cursor: pointer;
     
 }
+
 
 /* E-MAIL IN FOOTER */
 
